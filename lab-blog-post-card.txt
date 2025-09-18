@@ -1,0 +1,67 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog Post Card</title>
+</head>
+<body>
+<div class="blog-post-card">
+<img src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="An example picture" class="post-img">
+<div class="post-content">
+    <h2 class="post-title">Learn full-stack development in 2025</h2>
+<p class="post-excerpt">
+  In 2025, mastering full‑stack development means learning both front‑end and back‑end tools to build complete, modern web apps. With advanced frameworks, serverless tech, and AI‑driven tools on the rise, adaptability and hands‑on practice are key to a rewarding career in this fast‑evolving field.
+</p>
+    <a href="https://www.example.com" class="read-more">Read More</a>
+</div>
+</div>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.blog-post-card {
+  border-radius: 10px;
+  background-color: white;
+  width: 300px;
+  text-align: center;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.read-more {
+  color: blue;
+  text-decoration: none;
+  background-color: white;
+  margin: 15px auto;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.read-more:hover {
+  background-color: green
+}
+
+.post-img {
+  width: 100%;
+  border-bottom: 5px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.post-title, .post-excerpt {
+  margin: 30px;
+  color: purple;
+}
+
+** end of styles.css **
+

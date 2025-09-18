@@ -1,0 +1,69 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link rel="stylesheet"href="styles.css">
+    </link>
+</head>
+
+<body>
+    <div class="business-card">
+    <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="A beautifully-looking Pink Coneflower">
+    <p class="full-name">Daniil</p>
+    <p class="designation">A full-stck developer</p>
+    <p class="company">STC</p>
+    <hr>
+    <p>daniilishyk@mail.ru</p>
+    <p>+79060549738</p>
+    <a href="https://hh.ru/resume/105a6038ff0c4130ea0039ed1f74773063684a" target="_blank">Portfolio</a>
+    <hr>
+    <div class="social-media">
+        <h2>Connect with me</h2>
+        <a href="example.com" target="_blank">Twitter</a>
+        <a href="example.com" target="_blank">LinkedIn</a>
+        <a href="example.com" target="_blank">GitHub</a>
+    </div>
+    </div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+background-color: rosybrown;
+font-family: Arial, sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.business-card {
+  width: 300px;
+  background-color: pink;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+.profile-image {
+  max-width: 100%;
+}
+
+** end of styles.css **
+

@@ -1,0 +1,65 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Build an Event Flyer Page</title>
+</head>
+
+<body>
+<header>
+  <img src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg" alt="The picture shows colorful triangular flags hanging outdoors, creating a festive and cheerful atmosphere.">
+  <h1 class="header">
+    The Jolly Jumble Festival
+  </h1>
+  </header>
+
+<main>  
+    <section class="container">
+    <h2 >Welcome to the Festival</h2>
+    <p>Join us for a day full of fun, music, and colorful celebrations!</p>
+  </section>
+  <hr>
+  <section class="container">
+    <h2>Event Schedule</h2>
+    <ul>
+      <li>10:00 AM - Opening Ceremony</li>
+      <li>12:00 PM - Live Bands</li>
+      <li>3:00 PM - Food & Games</li>
+    </ul>
+  </section>
+</main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  min-height: calc(100vh - 100px)
+}
+
+hr {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+
+** end of styles.css **
+

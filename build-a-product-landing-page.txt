@@ -1,0 +1,2135 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DefenseTech Arsenal - Complete Military Systems</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://images.unsplash.com/photo-1562408590-e32931084e23?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="DefenseTech Arsenal Logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#us-arsenal">US Arsenal</a>
+      <a class="nav-link" href="#russian-arsenal">Russian Arsenal</a>
+      <a class="nav-link" href="#contact">Intelligence Brief</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>DefenseTech Arsenal</h1>
+      <p>Complete Superpower Military Systems & Advanced Ordnance Catalog</p>
+      <iframe id="video" src="https://www.youtube.com/embed/HivY2a4_tTQ" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="us-arsenal">
+      <h2>United States Military Arsenal</h2>
+      
+      <!-- ANALOGOUS SYSTEMS CATEGORIES -->
+      <div class="category-section">
+        <h3>Fifth-Generation Stealth Fighters</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>F-35A Lightning II Block 4</h4>
+            <p><strong>Next-Gen Multirole Fighter</strong> - Latest production with AGM-158 LRASM integration and enhanced sensor fusion capabilities.</p>
+            <ul>
+              <li>AGM-158C Long Range Anti-Ship Missile capability</li>
+              <li>GBU-53 StormBreaker-II smart munitions</li>
+              <li>AN/APG-81 AESA radar upgrades</li>
+              <li>Advanced exterior coatings for maintenance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Air Superiority Fighters</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>F-22A Raptor Super Variant</h4>
+            <p><strong>Air Dominance Fighter</strong> - Enhanced with Scorpion HMD and collaborative combat aircraft integration.</p>
+            <ul>
+              <li>Modular helmet-mounted display system</li>
+              <li>AIM-120D-3 and AIM-260 JATM integration</li>
+              <li>Loyal Wingman drone compatibility</li>
+              <li>Enhanced Link 16 and MADL data links</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Strategic Bombers</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>B-21 Raider</h4>
+            <p><strong>Next-Generation Stealth Bomber</strong> - Advanced penetrating strike aircraft with nuclear and conventional capabilities currently entering service.</p>
+            <ul>
+              <li>Advanced stealth technology</li>
+              <li>Nuclear and conventional mission capability</li>
+              <li>Open systems architecture</li>
+              <li>Advanced battle management systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Attack Helicopters</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>AH-64E Apache Guardian</h4>
+            <p><strong>Advanced Attack Helicopter</strong> - Latest variant with enhanced avionics, improved engines, and advanced targeting systems.</p>
+            <ul>
+              <li>T700-GE-701D engines (2,000 shp each)</li>
+              <li>AN/APG-78 Longbow radar system</li>
+              <li>AGM-114 Hellfire missiles</li>
+              <li>M230 30mm Chain Gun</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Main Battle Tanks</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M1E3 Abrams Next-Gen</h4>
+            <p><strong>Revolutionary Tank Design</strong> - Complete redesign for 2040+ battlefield with integrated active protection systems.</p>
+            <ul>
+              <li>Integrated Trophy-style active protection system</li>
+              <li>Reduced logistical footprint (-10 tons)</li>
+              <li>Advanced fire control with AI integration</li>
+              <li>Modular armor configuration system</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Infantry Fighting Vehicles</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M2A4E1 Bradley Iron Fist</h4>
+            <p><strong>Most Survivable Bradley</strong> - Enhanced with Israeli Iron Fist Light APS and environmental control systems.</p>
+            <ul>
+              <li>Hard-kill active protection system</li>
+              <li>M242 25mm Bushmaster Chain Gun upgrade</li>
+              <li>BGM-71 TOW missile capability</li>
+              <li>Enhanced crew survivability features</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Mine-Resistant Vehicles</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M-ATV (JLTV)</h4>
+            <p><strong>Joint Light Tactical Vehicle</strong> - Oshkosh L-ATV providing enhanced protection and mobility for various mission roles.</p>
+            <ul>
+              <li>V-hull blast-resistant design</li>
+              <li>TAK-4i independent suspension</li>
+              <li>Modular armor packages</li>
+              <li>Multiple mission role variants</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>MaxxPro MRAP</h4>
+            <p><strong>Mine-Resistant Ambush Protected</strong> - V-shaped hull MRAP vehicle with enhanced crew survivability and IED protection.</p>
+            <ul>
+              <li>V-shaped blast-deflecting hull</li>
+              <li>Category I mine blast protection</li>
+              <li>Gunner protection kit available</li>
+              <li>Multiple wheelbase configurations</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>MRAP ATV</h4>
+            <p><strong>All-Terrain MRAP</strong> - Smaller profile mine-resistant vehicle for special operations and reconnaissance missions.</p>
+            <ul>
+              <li>Reduced signature profile</li>
+              <li>Enhanced off-road mobility</li>
+              <li>Blast-resistant crew compartment</li>
+              <li>Special operations optimized</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Multiple Launch Rocket Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M270A2 MLRS Recapitalized</h4>
+            <p><strong>Precision Strike Platform</strong> - Latest upgrade with 600hp engine and PrSM missile compatibility.</p>
+            <ul>
+              <li>AGM-140 Army Tactical Missile System (300km)</li>
+              <li>Precision Strike Missile (PrSM) compatibility</li>
+              <li>M31 Guided MLRS rockets with GPS/INS</li>
+              <li>Mine-resistant armored crew compartment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Self-Propelled Artillery</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M109A7 Paladin PIM</h4>
+            <p><strong>Advanced Self-Propelled Howitzer</strong> - Paladin Integrated Management with enhanced automotive systems and digital fire control.</p>
+            <ul>
+              <li>155mm M284 cannon with 39-caliber length</li>
+              <li>Digital fire control system</li>
+              <li>Enhanced crew survivability</li>
+              <li>Improved reliability and maintainability</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>M1299 Extended Range Cannon Artillery</h4>
+            <p><strong>Long-Range Precision Fires</strong> - Next-generation 155mm self-propelled howitzer with 58-caliber gun for extended range.</p>
+            <ul>
+              <li>58-caliber 155mm XM907 cannon</li>
+              <li>70km+ range with rocket-assisted projectiles</li>
+              <li>Automated ramming system</li>
+              <li>Enhanced ballistic computer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Towed Artillery Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M777A2 Lightweight Howitzer</h4>
+            <p><strong>Ultralight Field Artillery</strong> - Titanium construction 155mm howitzer optimized for rapid deployment and precision fires.</p>
+            <ul>
+              <li>155mm/39-caliber titanium construction</li>
+              <li>Digital Fire Control System</li>
+              <li>GPS-guided Excalibur rounds compatible</li>
+              <li>Air-transportable by CH-47 Chinook</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>M119A3 Lightweight Howitzer</h4>
+            <p><strong>Air-Portable Artillery</strong> - 105mm lightweight howitzer for airborne and air assault operations with digital fire control.</p>
+            <ul>
+              <li>105mm M20A1 rifled gun</li>
+              <li>Digital Fire Control System upgrade</li>
+              <li>Sling-loadable by UH-60 Black Hawk</li>
+              <li>Enhanced mobility carriage</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Precision-Guided Munitions</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>GBU-39 Small Diameter Bomb</h4>
+            <p><strong>Compact Precision Strike</strong> - 250-pound GPS-guided bomb optimized for minimal collateral damage and precision targeting.</p>
+            <ul>
+              <li>250-pound class warhead</li>
+              <li>GPS/INS guidance system</li>
+              <li>60+ nautical mile glide range</li>
+              <li>Penetrating blast fragmentation warhead</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>GBU-53/B StormBreaker</h4>
+            <p><strong>Small Diameter Bomb II</strong> - Advanced precision weapon with tri-mode seeker for all-weather, moving target engagement.</p>
+            <ul>
+              <li>Tri-mode seeker (IIR/SAL/millimeter-wave radar)</li>
+              <li>Moving target capability</li>
+              <li>72+ km standoff range</li>
+              <li>Enhanced target discrimination</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>GBU-31 JDAM</h4>
+            <p><strong>Joint Direct Attack Munition</strong> - GPS-guided kit that converts unguided bombs into precision weapons with all-weather capability.</p>
+            <ul>
+              <li>2,000-pound Mk 84 warhead</li>
+              <li>GPS/INS guidance system</li>
+              <li>28km range (high altitude release)</li>
+              <li>Circular error probable: 5 meters</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>GBU-32 JDAM</h4>
+            <p><strong>Medium-Weight Precision Bomb</strong> - 1,000-pound JDAM variant for balanced destructive power and precision strike capability.</p>
+            <ul>
+              <li>1,000-pound Mk 83 warhead</li>
+              <li>GPS/INS guidance with updates</li>
+              <li>All-weather operation capability</li>
+              <li>High accuracy in contested environments</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Bunker-Busting & Penetrator Bombs</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>GBU-28 Bunker Buster</h4>
+            <p><strong>Deep Penetration Bomb</strong> - 5,000-pound laser-guided penetrator designed to destroy hardened underground targets.</p>
+            <ul>
+              <li>5,000-pound penetrating warhead</li>
+              <li>Laser guidance system</li>
+              <li>100+ feet concrete penetration</li>
+              <li>Delayed fuzing for deep targets</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>GBU-57 Massive Ordnance Penetrator (MOP)</h4>
+            <p><strong>Ultimate Bunker Buster</strong> - 30,000-pound GPS-guided penetrator bomb, the largest conventional weapon in the US arsenal.</p>
+            <ul>
+              <li>30,000-pound total weight</li>
+              <li>GPS/INS guidance system</li>
+              <li>200+ feet reinforced concrete penetration</li>
+              <li>B-2 Spirit exclusive delivery platform</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>GBU-24 Paveway III</h4>
+            <p><strong>Laser-Guided Penetrator</strong> - 2,000-pound laser-guided bomb with hardened steel case for penetrating reinforced targets.</p>
+            <ul>
+              <li>2,000-pound BLU-109 penetrator warhead</li>
+              <li>Laser guidance system</li>
+              <li>Enhanced concrete penetration capability</li>
+              <li>All-weather delivery capability</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>GBU-15 Electro-Optical Bomb</h4>
+            <p><strong>Precision Strike Weapon</strong> - 2,000-pound electro-optically guided bomb with man-in-the-loop control capability.</p>
+            <ul>
+              <li>2,000-pound warhead options</li>
+              <li>Electro-optical/infrared seeker</li>
+              <li>Man-in-the-loop guidance</li>
+              <li>Data link communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>General Purpose & Unguided Bombs</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Mk 82 General Purpose Bomb</h4>
+            <p><strong>Standard 500-Pound Bomb</strong> - Versatile unguided bomb serving as the foundation for many precision-guided variants.</p>
+            <ul>
+              <li>500-pound high-explosive warhead</li>
+              <li>Blast-fragmentation effects</li>
+              <li>Multiple fuzing options</li>
+              <li>Foundation for JDAM and Paveway conversions</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Mk 84 General Purpose Bomb</h4>
+            <p><strong>Heavy General Purpose Bomb</strong> - 2,000-pound unguided bomb providing maximum destructive capability against large targets.</p>
+            <ul>
+              <li>2,000-pound high-explosive warhead</li>
+              <li>Maximum blast and fragmentation effects</li>
+              <li>Large target area coverage</li>
+              <li>Multiple delivery platform compatibility</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>BLU-82 Daisy Cutter</h4>
+            <p><strong>Area Denial Weapon</strong> - 15,000-pound fuel-air explosive bomb designed for clearing large areas and psychological impact.</p>
+            <ul>
+              <li>15,000-pound fuel-air explosive</li>
+              <li>Large area of effect</li>
+              <li>Obstacle clearance capability</li>
+              <li>MC-130 delivery platform</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>CBU-97 Sensor Fuzed Weapon</h4>
+            <p><strong>Anti-Armor Cluster Bomb</strong> - Advanced cluster munition with smart submunitions for area denial and armor defeat.</p>
+            <ul>
+              <li>Smart submunitions with sensors</li>
+              <li>Self-destruct mechanisms</li>
+              <li>Wide area coverage</li>
+              <li>Multiple target engagement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Precision Sniper Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M110A1 Squad Designated Marksman Rifle</h4>
+            <p><strong>Semi-Automatic Sniper System</strong> - Knights Armament Company SR-25 based precision rifle in 7.62×51mm NATO.</p>
+            <ul>
+              <li>7.62×51mm NATO chambering</li>
+              <li>20-round detachable magazines</li>
+              <li>Free-floating barrel design</li>
+              <li>Suppressor-ready configuration</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Mk 22 Advanced Sniper Rifle</h4>
+            <p><strong>Multi-Caliber Precision System</strong> - Barrett MRAD (Multi-Role Adaptive Design) with interchangeable caliber capability.</p>
+            <ul>
+              <li>.308 Winchester, .300 Norma Magnum, .338 Norma Magnum</li>
+              <li>Folding stock configuration</li>
+              <li>Quick-change barrel system</li>
+              <li>Enhanced accuracy at extended ranges</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>M107A1 Anti-Materiel Rifle</h4>
+            <p><strong>Long-Range Anti-Materiel System</strong> - Barrett .50 caliber semi-automatic rifle for equipment destruction and long-range precision.</p>
+            <ul>
+              <li>.50 BMG (12.7×99mm NATO) cartridge</li>
+              <li>Semi-automatic operation</li>
+              <li>Effective range: 1,800+ meters</li>
+              <li>Titanium bipod and muzzle brake</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Custom Precision Rifles</h4>
+            <p><strong>Special Operations Sniper Systems</strong> - Various custom-built precision rifles including GAP, AI, and custom gunsmith builds for elite units.</p>
+            <ul>
+              <li>George Gardner Precision (GAP) builds</li>
+              <li>Accuracy International variants</li>
+              <li>Custom .300 Winchester Magnum systems</li>
+              <li>.338 Lapua Magnum precision platforms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Next-Generation Squad Weapons</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M7 Rifle (NGSW-R)</h4>
+            <p><strong>Next Generation Squad Weapon</strong> - SIG MCX Spear in 6.8×51mm with superior penetration over 5.56mm.</p>
+            <ul>
+              <li>6.8×51mm high-pressure cartridge (80,000 PSI)</li>
+              <li>Vortex XM157 Fire Control System</li>
+              <li>SIG SLX Suppressor integration</li>
+              <li>Free-floating M-LOK rail system</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>M250 Light Machine Gun (NGSW-AR)</h4>
+            <p><strong>Squad Automatic Weapon</strong> - SIG MG 338 variant in 6.8×51mm with enhanced range and stopping power.</p>
+            <ul>
+              <li>Belt-fed automatic operation (600-750 RPM)</li>
+              <li>Quick-change barrel system</li>
+              <li>Integrated bipod and M-LOK rail</li>
+              <li>Enhanced ballistic performance at range</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Service Pistols</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M17/M18 Modular Handgun</h4>
+            <p><strong>Standard Service Pistol</strong> - SIG P320-based platform with modular grip modules for all branches.</p>
+            <ul>
+              <li>9×19mm striker-fired operation</li>
+              <li>Delta Point Pro optic compatibility</li>
+              <li>XM1152 Ball and XM1153 Special Purpose rounds</li>
+              <li>Modular polymer grip frames (3 sizes)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Combat Rifles</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M4A1 Carbine Enhanced</h4>
+            <p><strong>Enhanced Combat Rifle</strong> - Latest variants with improved barrel profiles and modular accessories.</p>
+            <ul>
+              <li>5.56×45mm NATO with M855A1 EPR</li>
+              <li>Free-floating rail interface system</li>
+              <li>Enhanced trigger group</li>
+              <li>Suppressor-ready threading</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Air-to-Air & Air-to-Ground Missiles</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>AIM-120D AMRAAM</h4>
+            <p><strong>Advanced Medium-Range Air-to-Air Missile</strong> - Latest variant with enhanced range and improved guidance systems.</p>
+            <ul>
+              <li>Beyond visual range capability (160+ km)</li>
+              <li>Active radar homing guidance</li>
+              <li>Enhanced electronic counter-countermeasures</li>
+              <li>Two-way datalink communication</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>AGM-114R Hellfire Romeo</h4>
+            <p><strong>Multi-Purpose Precision Missile</strong> - Hellfire variant with multipurpose warhead for various target types.</p>
+            <ul>
+              <li>Semi-active laser guidance</li>
+              <li>11km maximum range</li>
+              <li>Multipurpose blast-fragmentation warhead</li>
+              <li>Lock-on-after-launch capability</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>AGM-179 Joint Air-to-Ground Missile</h4>
+            <p><strong>Next-Generation Precision Strike</strong> - Advanced air-to-ground missile with enhanced range and precision guidance.</p>
+            <ul>
+              <li>Tri-mode seeker (IIR/SAL/millimeter wave)</li>
+              <li>16+ km range capability</li>
+              <li>Multi-platform integration</li>
+              <li>Network-enabled operations</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Hydra-70 Rocket System</h4>
+            <p><strong>Unguided Rocket System</strong> - 70mm folding-fin aerial rocket system with various warhead options for close air support.</p>
+            <ul>
+              <li>70mm folding-fin aerial rockets</li>
+              <li>Multiple warhead configurations</li>
+              <li>M261 19-tube launcher pods</li>
+              <li>Enhanced fuzing options</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Man-Portable Air Defense</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>FIM-92 Stinger</h4>
+            <p><strong>Shoulder-Fired SAM System</strong> - Infrared homing surface-to-air missile for low-altitude air defense.</p>
+            <ul>
+              <li>Passive infrared seeker</li>
+              <li>8km effective range</li>
+              <li>Fire-and-forget operation</li>
+              <li>All-aspect engagement capability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Explosive Ordnance & Mines</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>M18A1 Claymore</h4>
+            <p><strong>Directional Anti-Personnel Mine</strong> - Command-detonated mine with directed fragmentation pattern.</p>
+            <ul>
+              <li>680g C-4 explosive with steel balls</li>
+              <li>60-degree fragmentation pattern</li>
+              <li>50m lethal radius</li>
+              <li>Remote or tripwire activation</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>M136 AT4</h4>
+            <p><strong>Lightweight Anti-Tank Weapon</strong> - Single-shot disposable anti-tank rocket launcher for infantry use.</p>
+            <ul>
+              <li>84mm High Explosive Anti-Tank warhead</li>
+              <li>300m effective range</li>
+              <li>Disposable launcher tube</li>
+              <li>Tandem HEAT warhead option</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Unmanned Aerial Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>MQ-9B SkyGuardian</h4>
+            <p><strong>Advanced MALE UAV</strong> - Medium Altitude Long Endurance drone with enhanced capabilities and NATO certification.</p>
+            <ul>
+              <li>40+ hour flight endurance</li>
+              <li>Turboprop engine (900 shp)</li>
+              <li>Multi-domain operations capability</li>
+              <li>Advanced sensor packages</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>RQ-4 Global Hawk Block 40</h4>
+            <p><strong>High-Altitude ISR Platform</strong> - Long-endurance surveillance drone with advanced sensors and global reach.</p>
+            <ul>
+              <li>65,000 ft operational altitude</li>
+              <li>32+ hour flight endurance</li>
+              <li>Enhanced Integrated Sensor Suite</li>
+              <li>Global satellite communication</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>AeroVironment Switchblade 600</h4>
+            <p><strong>Loitering Munition</strong> - Man-portable tactical missile system with precision strike capability.</p>
+            <ul>
+              <li>40+ km range capability</li>
+              <li>Anti-armor warhead</li>
+              <li>Electro-optical/infrared seeker</li>
+              <li>Man-portable launch system</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Black Hornet PRS</h4>
+            <p><strong>Personal Reconnaissance System</strong> - Micro-UAV for squad-level reconnaissance and surveillance operations.</p>
+            <ul>
+              <li>Pocket-sized reconnaissance platform</li>
+              <li>25 minute flight time</li>
+              <li>2km operational range</li>
+              <li>Day/night camera systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- US SPECIAL OPERATIONS EXCLUSIVE CATEGORIES -->
+      <div class="category-section unique-systems">
+        <h3>Massive Ordnance Systems (US Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>GBU-43 MOAB (Massive Ordnance Air Blast)</h4>
+            <p><strong>Mother of All Bombs</strong> - 21,600-pound thermobaric weapon, the largest non-nuclear bomb in the US inventory.</p>
+            <ul>
+              <li>21,600-pound total weight</li>
+              <li>Thermobaric warhead design</li>
+              <li>GPS guidance system</li>
+              <li>Mile-wide blast radius</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Special Operations Custom Rifles (US Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Geissele URGI (USASOC)</h4>
+            <p><strong>Upper Receiver Group-Improved</strong> - Custom 14.5" carbine currently fielded by US Special Operations Command.</p>
+            <ul>
+              <li>Geissele SMR Mk16 M-LOK rail system</li>
+              <li>FN military mid-length barrel</li>
+              <li>Surefire SOCOM Warcomp flash hider</li>
+              <li>Geissele SSA 2-stage match trigger</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Noveske Custom Rifles (SEAL Team Six)</h4>
+            <p><strong>Elite Unit Carbines</strong> - Custom upper receivers used by DEVGRU with 10.5" barrels for CQB operations.</p>
+            <ul>
+              <li>Noveske 10.5" barrel with proprietary gas system</li>
+              <li>Custom rail systems and handguards</li>
+              <li>Specialized suppressors and muzzle devices</li>
+              <li>Enhanced bolt carrier groups</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>LMT Mid-Range Gas Gun-Assault (MRGG-A)</h4>
+            <p><strong>6.5mm Creedmoor Precision Rifle</strong> - New contract for US SOCOM providing enhanced reach and ballistic performance.</p>
+            <ul>
+              <li>6.5mm Creedmoor chambering</li>
+              <li>Mars-H platform (AR-10 derivative)</li>
+              <li>Direct impingement operating system</li>
+              <li>50-1,500 meter effective range</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Knights Armament SR-25</h4>
+            <p><strong>Precision Semi-Automatic Rifle</strong> - 7.62mm precision rifle used by various special operations units for designated marksman roles.</p>
+            <ul>
+              <li>7.62×51mm NATO match ammunition</li>
+              <li>Free-floating barrel system</li>
+              <li>Knights Armament QDC suppressor system</li>
+              <li>Enhanced accuracy and reliability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Special Operations Tactical Gear (US Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Crye Precision G4 Combat Uniform</h4>
+            <p><strong>Elite Operator Apparel</strong> - Industry-leading modular combat uniform trusted by US Special Forces.</p>
+            <ul>
+              <li>Multi-terrain pattern options</li>
+              <li>Integrated knee and elbow protection</li>
+              <li>Moisture-wicking fabric technology</li>
+              <li>Reinforced high-wear areas</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>OPS-CORE FAST Helmet</h4>
+            <p><strong>Advanced Ballistic Protection</strong> - Lightweight helmet with integrated mounting systems for SOF operations.</p>
+            <ul>
+              <li>ARC rail system for accessories</li>
+              <li>Night vision goggle compatibility</li>
+              <li>Integrated communication mounts</li>
+              <li>Enhanced ballistic protection</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Mechanix Wear M-Pact Gloves</h4>
+            <p><strong>Operator Hand Protection</strong> - Tactical gloves providing dexterity and protection for various operations.</p>
+            <ul>
+              <li>Impact-resistant knuckle protection</li>
+              <li>Synthetic leather palm construction</li>
+              <li>Touchscreen compatible fingertips</li>
+              <li>Secure hook and loop closure</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>LBT Load-Bearing Equipment</h4>
+            <p><strong>Modular Tactical Gear</strong> - Long-standing provider of load-bearing equipment for US Special Forces.</p>
+            <ul>
+              <li>Modular MOLLE compatibility</li>
+              <li>Custom mission-specific configurations</li>
+              <li>Enhanced durability materials</li>
+              <li>Quick-release mechanisms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Close Air Support Aircraft (US Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>AC-130J Ghostrider Block 30</h4>
+            <p><strong>Combat-Proven Gunship</strong> - Latest configuration with 30mm cannon, 105mm howitzer, and Griffin missiles.</p>
+            <ul>
+              <li>Four Rolls-Royce AE 2100D3 turboprops</li>
+              <li>AN/AAQ-30 Target Sight System with HD FLIR</li>
+              <li>Common Launch Tubes for precision munitions</li>
+              <li>Electronic warfare self-protection suite</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="russian-arsenal">
+      <h2>Russian Federation Military Systems</h2>
+      
+      <!-- ANALOGOUS SYSTEMS CATEGORIES -->
+      <div class="category-section">
+        <h3>Fifth-Generation Stealth Fighters</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Su-57 Felon</h4>
+            <p><strong>Multirole Stealth Fighter</strong> - Advanced fighter with supercruise capability and integrated avionics suite.</p>
+            <ul>
+              <li>AL-51F1 engines with 3D thrust vectoring</li>
+              <li>N036 Byelka AESA radar complex</li>
+              <li>R-37M hypersonic missiles (400km range)</li>
+              <li>Internal weapons bay stealth configuration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Air Superiority Fighters</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Su-35S Flanker-E</h4>
+            <p><strong>Advanced Air Superiority Fighter</strong> - 4++ generation fighter with thrust vectoring and powerful radar system.</p>
+            <ul>
+              <li>AL-41F1S engines with thrust vectoring</li>
+              <li>Irbis-E passive phased array radar</li>
+              <li>R-77-1 (RVV-SD) beyond visual range missiles</li>
+              <li>Comprehensive electronic warfare systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Strategic Bombers</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Tu-160M Strategic Bomber</h4>
+            <p><strong>Modernized Blackjack</strong> - Upgraded strategic bomber with enhanced avionics and extended operational capability.</p>
+            <ul>
+              <li>NK-32-02 engines (enhanced thrust)</li>
+              <li>Kh-101/102 cruise missiles (5,500km range)</li>
+              <li>Modern glass cockpit displays</li>
+              <li>Enhanced electronic warfare suite</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Attack Helicopters</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Ka-52 Alligator</h4>
+            <p><strong>Advanced Attack Helicopter</strong> - Coaxial rotor design with comprehensive sensors and anti-tank capability.</p>
+            <ul>
+              <li>Coaxial rotor system for enhanced agility</li>
+              <li>Vikhr-1 anti-tank missiles (10km range)</li>
+              <li>30mm 2A42 automatic cannon</li>
+              <li>Arbalet-52 electro-optical targeting system</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Main Battle Tanks</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>T-90M Proryv</h4>
+            <p><strong>Most Advanced Russian MBT</strong> - Latest variant with new welded turret, Relikt ERA, and enhanced fire control.</p>
+            <ul>
+              <li>125mm 2A46M-5 smoothbore gun with autoloader</li>
+              <li>Kalina fire control system with thermal imaging</li>
+              <li>Relikt explosive reactive armor (4th generation)</li>
+              <li>Shtora-1 electro-optical countermeasures</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Infantry Fighting Vehicles</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>BMP-3 Enhanced</h4>
+            <p><strong>Advanced IFV Platform</strong> - Latest deliveries with Nakidka stealth coating and enhanced protection.</p>
+            <ul>
+              <li>100mm 2A70 rifled gun/missile launcher</li>
+              <li>30mm 2A72 automatic cannon (coaxial)</li>
+              <li>Kornet-EM anti-tank guided missiles</li>
+              <li>Amphibious capability with hydrojet propulsion</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Mine-Resistant Vehicles</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Typhoon-K MRAP</h4>
+            <p><strong>Heavy Mine-Protected Vehicle</strong> - 6×6 armored vehicle with enhanced mine and IED protection for crew safety.</p>
+            <ul>
+              <li>V-shaped blast-resistant hull</li>
+              <li>Enhanced crew survivability systems</li>
+              <li>Modular armor packages</li>
+              <li>Multiple mission configurations</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Typhoon-VDV Airborne MRAP</h4>
+            <p><strong>Air-Droppable Protected Vehicle</strong> - Lightweight MRAP optimized for airborne operations with blast protection.</p>
+            <ul>
+              <li>Air-droppable configuration</li>
+              <li>Mine-resistant design</li>
+              <li>Enhanced mobility package</li>
+              <li>Reduced weight for air transport</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Bulat MRAP</h4>
+            <p><strong>Urban Operations MRAP</strong> - Specialized mine-resistant vehicle for urban combat and patrol operations.</p>
+            <ul>
+              <li>Urban warfare optimization</li>
+              <li>Enhanced visibility systems</li>
+              <li>Modular protection levels</li>
+              <li>Improved crew ergonomics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Self-Propelled Artillery</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>2S19M2 Msta-S</h4>
+            <p><strong>Modernized Self-Propelled Howitzer</strong> - Enhanced 152mm artillery system with improved fire control and extended range.</p>
+            <ul>
+              <li>152mm 2A64 howitzer gun</li>
+              <li>Automated loading assistance</li>
+              <li>Digital fire control system</li>
+              <li>Enhanced crew protection</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>2S7M Malka</h4>
+            <p><strong>Heavy Self-Propelled Gun</strong> - 203mm heavy artillery system for long-range fire support and fortification destruction.</p>
+            <ul>
+              <li>203mm 2A44 gun system</li>
+              <li>47km maximum range</li>
+              <li>Nuclear-capable ammunition</li>
+              <li>Heavy concrete-piercing rounds</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>2S43 Malva</h4>
+            <p><strong>Wheeled 152mm Howitzer</strong> - High-mobility SPH on 8×8 chassis with automated loading and MRSI mode.</p>
+            <ul>
+              <li>152mm 2A64 cannon (30-round load)</li>
+              <li>Rapid fire > 7 rds/min</li>
+              <li>Standard range 24km | RAP 29km</li>
+              <li>470hp YaMZ-8424 diesel, 80km/h road speed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Multiple Launch Rocket Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>2S35 Koalitsiya-SV</h4>
+            <p><strong>Advanced Artillery System</strong> - 152mm automated howitzer with unmanned turret and 70km+ range.</p>
+            <ul>
+              <li>152mm 2A88 gun with automated loading</li>
+              <li>Unmanned turret with crew in armored hull</li>
+              <li>Multiple Round Simultaneous Impact (MRSI)</li>
+              <li>Krasnopol precision-guided munitions</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>BM-21 Grad</h4>
+            <p><strong>122mm 40-tube MLRS</strong> - Staple Soviet/Russian field rocket artillery since 1963.</p>
+            <ul>
+              <li>40 × 122mm rockets per salvo</li>
+              <li>Max range 20–40km (rocket-type dependent)</li>
+              <li>18 rds/min ripple-fire rate</li>
+              <li>Mounted on Ural-4320 6×6 truck</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>BM-27 Uragan</h4>
+            <p><strong>220mm 16-tube MLRS</strong> - Heavy rocket launcher for area saturation and cluster munitions.</p>
+            <ul>
+              <li>16 × 220mm rockets</li>
+              <li>Range 35–40km</li>
+              <li>Full salvo in 20s</li>
+              <li>ZIL-135 8×8 chassis, NBC-sealed cab</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>BM-30 Smerch</h4>
+            <p><strong>300mm 12-tube MLRS</strong> - Long-range heavy rockets with GPS-guided variants.</p>
+            <ul>
+              <li>12 × 300mm rockets</li>
+              <li>Range 70–90km (guided 9M542 > 120km)</li>
+              <li>Spin-stabilised, inertial/GPS options</li>
+              <li>MAZ-543M 8×8 chassis</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>MLRS "Vozrozhdenie"</h4>
+            <p><strong>Experimental Remote-Mining MLRS</strong> - Mine-laying and thermobaric rockets on modular launch pod.</p>
+            <ul>
+              <li>Modular 122/220mm rocket pods</li>
+              <li>Automated digital fire-control</li>
+              <li>Programmable scatterable mines</li>
+              <li>T-815-based 8×8 chassis</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Heavy Thermobaric Rocket Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>TOS-2 "Tosochka"</h4>
+            <p><strong>220mm Wheeled Flamethrower</strong> - Next-gen heavy thermobaric launcher with crane-based reload.</p>
+            <ul>
+              <li>18 × 220mm thermobaric rockets</li>
+              <li>Effective range 10km (thermobaric)</li>
+              <li>Own crane → no resupply vehicle needed</li>
+              <li>Ural-63706 6×6 platform, CBRN-protected</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Towed Artillery Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>2A36 Giatsint-B</h4>
+            <p><strong>Long-Range Towed Howitzer</strong> - 152mm towed artillery system with extended range capability and precision ammunition compatibility.</p>
+            <ul>
+              <li>152mm/47-caliber gun tube</li>
+              <li>33km range with standard ammunition</li>
+              <li>Krasnopol laser-guided rounds</li>
+              <li>Digital fire control integration</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>D-30A Howitzer</h4>
+            <p><strong>Versatile Towed Artillery</strong> - 122mm howitzer with 360-degree traverse capability and multiple ammunition types.</p>
+            <ul>
+              <li>122mm/38.5-caliber rifled gun</li>
+              <li>360-degree traverse capability</li>
+              <li>Multiple ammunition configurations</li>
+              <li>Enhanced mobility carriage</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Free-Fall Aviation Bombs (FAB Series)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>FAB-250 General Purpose Bomb</h4>
+            <p><strong>Standard 250kg Bomb</strong> - Most common Russian general-purpose bomb with high-explosive fragmentation warhead.</p>
+            <ul>
+              <li>250kg high-explosive warhead</li>
+              <li>Cast steel fragmentation case</li>
+              <li>Multiple fuzing configurations</li>
+              <li>Wide variety of delivery platforms</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>FAB-500 M-62 Heavy Bomb</h4>
+            <p><strong>Medium-Weight General Purpose Bomb</strong> - 500kg high-explosive bomb for substantial target damage.</p>
+            <ul>
+              <li>500kg high-explosive warhead</li>
+              <li>Enhanced blast and fragmentation effects</li>
+              <li>Improved penetration capability</li>
+              <li>Multi-platform compatibility</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>FAB-1500 Heavy Bomb</h4>
+            <p><strong>Large Area Destruction Bomb</strong> - 1,500kg high-explosive bomb for major infrastructure and fortification targets.</p>
+            <ul>
+              <li>1,500kg high-explosive warhead</li>
+              <li>Massive blast radius and penetration</li>
+              <li>Strategic target destruction capability</li>
+              <li>Heavy bomber platform required</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>FAB-3000 Ultra-Heavy Bomb</h4>
+            <p><strong>Maximum Destruction Bomb</strong> - 3,000kg ultra-heavy bomb reserved for the most critical strategic targets.</p>
+            <ul>
+              <li>3,000kg high-explosive warhead</li>
+              <li>Extreme blast and seismic effects</li>
+              <li>Deep fortification penetration</li>
+              <li>Strategic bomber exclusive delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Concrete-Penetrating Bombs (BETAB Series)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>BETAB-250 Concrete Piercer</h4>
+            <p><strong>Concrete-Penetrating Bomb</strong> - 250kg specialized bomb designed to destroy reinforced concrete structures and bunkers.</p>
+            <ul>
+              <li>250kg penetrating warhead</li>
+              <li>Hardened steel case construction</li>
+              <li>Delayed fuzing for deep penetration</li>
+              <li>Reinforced concrete penetration capability</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>BETAB-500 Heavy Penetrator</h4>
+            <p><strong>Heavy Concrete-Penetrating Bomb</strong> - 500kg bomb specifically engineered to defeat heavily fortified positions.</p>
+            <ul>
+              <li>500kg penetrating warhead design</li>
+              <li>Enhanced penetration capabilities</li>
+              <li>Underground facility destruction</li>
+              <li>Bunker-busting mission optimized</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>BETAB-750 Super Penetrator</h4>
+            <p><strong>Ultra-Heavy Penetrator Bomb</strong> - 750kg specialized penetrator for the most heavily defended underground facilities.</p>
+            <ul>
+              <li>750kg ultra-penetrating warhead</li>
+              <li>Maximum concrete penetration depth</li>
+              <li>Strategic underground target capability</li>
+              <li>Advanced delayed fuzing system</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Fuel-Air Explosive Bombs (ODAB Series)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>ODAB-500P Fuel-Air Explosive</h4>
+            <p><strong>Thermobaric Area Weapon</strong> - 500kg fuel-air explosive bomb creating massive overpressure effects.</p>
+            <ul>
+              <li>500kg thermobaric warhead</li>
+              <li>Wide area of effect</li>
+              <li>Enhanced anti-personnel effects</li>
+              <li>Oxygen depletion capability</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>ODAB-1500 Heavy Thermobaric</h4>
+            <p><strong>Heavy Fuel-Air Bomb</strong> - 1,500kg thermobaric weapon for maximum area denial and destruction effects.</p>
+            <ul>
+              <li>1,500kg thermobaric warhead</li>
+              <li>Massive overpressure wave</li>
+              <li>Extended area of effect</li>
+              <li>Cave and tunnel clearing capability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Guided Precision Bombs (KAB Series)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>KAB-250 Guided Bomb</h4>
+            <p><strong>Precision Guided Munition</strong> - 250kg laser-guided bomb with enhanced accuracy for surgical strikes.</p>
+            <ul>
+              <li>250kg high-explosive warhead</li>
+              <li>Laser guidance system</li>
+              <li>High precision targeting</li>
+              <li>Minimal collateral damage</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>KAB-500Kr Electro-Optical Bomb</h4>
+            <p><strong>TV-Guided Precision Weapon</strong> - 500kg bomb with television guidance for precise target engagement.</p>
+            <ul>
+              <li>500kg high-explosive warhead</li>
+              <li>Electro-optical guidance system</li>
+              <li>Man-in-the-loop capability</li>
+              <li>All-weather operation capability</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>KAB-1500Kr Heavy Guided Bomb</h4>
+            <p><strong>Heavy Precision Strike Weapon</strong> - 1,500kg guided bomb for high-value strategic targets requiring precision.</p>
+            <ul>
+              <li>1,500kg high-explosive warhead</li>
+              <li>Television/thermal guidance</li>
+              <li>Strategic target precision capability</li>
+              <li>Enhanced penetration effects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Precision Sniper Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Chukavin Sniper Rifle (SVCh)</h4>
+            <p><strong>Modern Precision Marksman System</strong> - Next-generation sniper rifle replacing SVD with enhanced accuracy and modular design.</p>
+            <ul>
+              <li>7.62×54mmR high-precision cartridge</li>
+              <li>Modular chassis system</li>
+              <li>Enhanced barrel with muzzle brake</li>
+              <li>Advanced scope mounting system</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>SVDM Enhanced Dragunov</h4>
+            <p><strong>Modernized Marksman Rifle</strong> - Upgraded SVD with enhanced accuracy, suppressor capability, and modular accessories.</p>
+            <ul>
+              <li>Enhanced accuracy over classic SVD</li>
+              <li>Integrated suppressor compatibility</li>
+              <li>Modern optic mounting systems</li>
+              <li>Improved ergonomics and accessories</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Next-Generation Squad Weapons</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>AK-12</h4>
+            <p><strong>Next-Generation Kalashnikov</strong> - Modernized platform with enhanced ergonomics and improved accuracy.</p>
+            <ul>
+              <li>5.45×39mm chambering with enhanced ballistics</li>
+              <li>Picatinny rail system for optics/accessories</li>
+              <li>Improved fire control group and trigger</li>
+              <li>Folding polymer stock with adjustable cheek rest</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>RPL-20 Light Machine Gun</h4>
+            <p><strong>Modern Squad Automatic Weapon</strong> - New belt-fed LMG with enhanced reliability and accuracy.</p>
+            <ul>
+              <li>7.62×51mm NATO cartridge compatibility</li>
+              <li>Quick-change barrel system</li>
+              <li>Polymer construction for weight reduction</li>
+              <li>Integrated bipod and optic mounting rails</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Service Pistols</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Lebedev PL-15</h4>
+            <p><strong>Standard Service Pistol</strong> - Modern striker-fired pistol replacing Makarov PM with enhanced capabilities.</p>
+            <ul>
+              <li>9×19mm Parabellum chambering</li>
+              <li>Striker-fired operation</li>
+              <li>17-round magazine capacity</li>
+              <li>Picatinny rail for accessories</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Combat Rifles</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>AK-15 Heavy Assault Rifle</h4>
+            <p><strong>Enhanced Combat Rifle</strong> - Return to 7.62×39mm cartridge for enhanced stopping power.</p>
+            <ul>
+              <li>7.62×39mm Soviet cartridge</li>
+              <li>Enhanced muzzle brake and compensator</li>
+              <li>Polymer furniture with ergonomic improvements</li>
+              <li>Integrated rail system for modern optics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Man-Portable Air Defense</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>9K38 Igla-S</h4>
+            <p><strong>Advanced MANPADS System</strong> - Infrared homing surface-to-air missile with enhanced countermeasures resistance.</p>
+            <ul>
+              <li>Enhanced infrared seeker</li>
+              <li>6km effective range</li>
+              <li>Improved ECCM capabilities</li>
+              <li>All-weather operation capability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section">
+        <h3>Unmanned Aerial Systems</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Orion Strike UAV</h4>
+            <p><strong>Medium-Altitude Long-Endurance UAV</strong> - Domestically produced drone with precision strike capability and extended loiter time.</p>
+            <ul>
+              <li>24-hour flight endurance</li>
+              <li>Kh-50 precision-guided missiles</li>
+              <li>Multi-sensor surveillance package</li>
+              <li>Satellite communication data link</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Korsar Reconnaissance UAV</h4>
+            <p><strong>Tactical ISR Platform</strong> - Medium-range reconnaissance drone for battlefield surveillance and target acquisition.</p>
+            <ul>
+              <li>18-hour flight endurance</li>
+              <li>Multi-spectral sensor package</li>
+              <li>Real-time data transmission</li>
+              <li>Tactical reconnaissance optimization</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Zala Aero Drones</h4>
+            <p><strong>Small Tactical UAVs</strong> - Family of small unmanned aircraft for various tactical reconnaissance and surveillance missions.</p>
+            <ul>
+              <li>Multiple size and capability variants</li>
+              <li>Portable ground control stations</li>
+              <li>Day/night camera systems</li>
+              <li>Extended flight endurance options</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>ZALA 421-16E5</h4>
+            <p><strong>Long-Endurance Surveillance UAV</strong> - Fixed-wing tactical drone optimized for extended surveillance missions.</p>
+            <ul>
+              <li>16+ hour flight endurance</li>
+              <li>150km operational radius</li>
+              <li>High-resolution electro-optical systems</li>
+              <li>Automated flight planning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- RUSSIAN SPECIAL OPERATIONS EXCLUSIVE CATEGORIES - EXPANDED -->
+      <div class="category-section unique-systems">
+        <h3>Hypersonic & Cruise Missile Systems (Russian Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>3M-14 Kalibr</h4>
+            <p><strong>Sub-sonic Land-Attack Cruise Missile</strong> - Sea- and sub-launched precision strike system with long range capability.</p>
+            <ul>
+              <li>Range 1,500–2,500km (variant-dependent)</li>
+              <li>450kg HE or thermobaric warhead</li>
+              <li>Sea-skimming terminal flight profile</li>
+              <li>Navigation: INS / GLONASS / TERCOM</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Kh-47M2 Kinzhal</h4>
+            <p><strong>Air-Launched Hypersonic Ballistic Missile</strong> - Mach 10+ maneuvering weapon for high-value targets.</p>
+            <ul>
+              <li>Range ≈ 2,000km (MiG-31K launch)</li>
+              <li>500kg HE or nuclear payload</li>
+              <li>Flight path > 30km altitude</li>
+              <li>End-game 12–15g evasive maneuvers</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>3M-22 Zircon</h4>
+            <p><strong>Ship- & Sub-Launched Hypersonic Cruise Missile</strong> - Anti-ship/land weapon at Mach 8-9 speed.</p>
+            <ul>
+              <li>Estimated range 1,000km</li>
+              <li>300–400kg penetrator warhead</li>
+              <li>Scramjet propulsion, plasma stealth</li>
+              <li>Targets defended AEGIS/THAAD class</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Advanced Glide Bombs (Russian Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Grom-1 Precision Strike System</h4>
+            <p><strong>Long-Range Glide Bomb</strong> - Advanced precision-guided bomb with extended range and multiple guidance modes.</p>
+            <ul>
+              <li>120km+ glide range capability</li>
+              <li>Multiple guidance system options</li>
+              <li>Enhanced accuracy and penetration</li>
+              <li>All-weather operational capability</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Grom-2 Extended Range System</h4>
+            <p><strong>Ultra-Long Range Glide Bomb</strong> - Next-generation precision weapon with maximum standoff capability and advanced targeting.</p>
+            <ul>
+              <li>280km+ maximum glide range</li>
+              <li>Advanced multi-mode guidance</li>
+              <li>Network-enabled target updates</li>
+              <li>Multiple warhead configurations</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>UPAB-1500B Universal Bomb</h4>
+            <p><strong>Multi-Mode Precision Weapon</strong> - Universal planning bomb with various guidance options and warhead types.</p>
+            <ul>
+              <li>1,500kg modular warhead system</li>
+              <li>GPS/GLONASS guidance integration</li>
+              <li>Extended range glide capability</li>
+              <li>Multiple mission profiles</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Special Operations Custom Rifles (Russian Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>CGNL NL-545 Platform</h4>
+            <p><strong>AR-Style Russian Rifle</strong> - Custom AR-15 derivative chambered in 5.45×39mm with AK magazine compatibility.</p>
+            <ul>
+              <li>AR-15 architecture with Russian cartridge</li>
+              <li>AK-74/AK-12 magazine compatibility</li>
+              <li>Direct impingement or gas piston operation</li>
+              <li>Cold hammer-forged chrome-plated barrel</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>CGNL NL-15 Tactical Series</h4>
+            <p><strong>Multi-Configuration AR Platform</strong> - Russian AR-15 variant available in multiple barrel lengths for diverse tactical applications.</p>
+            <ul>
+              <li>Multiple barrel configurations: 10.5", 14.5", 16", 20"</li>
+              <li>5.56×45mm NATO chambering</li>
+              <li>Customizable rail systems and accessories</li>
+              <li>Enhanced ergonomics for Russian operators</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>CGNL NL-745 Precision Rifle</h4>
+            <p><strong>Custom Marksman Platform</strong> - Specialized precision rifle combining AR ergonomics with enhanced accuracy for designated marksman roles.</p>
+            <ul>
+              <li>7.62×39mm or 7.62×51mm chambering options</li>
+              <li>Match-grade barrel with precision threading</li>
+              <li>Enhanced trigger group and stock system</li>
+              <li>Optimized for precision shooting applications</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>CGNL NL-50 Beowulf</h4>
+            <p><strong>Heavy-Caliber Custom Platform</strong> - Specialized AR platform chambered in .50 Beowulf for maximum stopping power and specialized applications.</p>
+            <ul>
+              <li>.50 Beowulf (12.7×42mm) heavy cartridge</li>
+              <li>Enhanced bolt and carrier system</li>
+              <li>Specialized muzzle devices and compensators</li>
+              <li>Custom-requested for specialized missions</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>ORSIS T-5000 Sniper Rifle</h4>
+            <p><strong>Precision Bolt-Action Platform</strong> - High-end sniper rifle used by Russian special forces with sub-MOA accuracy.</p>
+            <ul>
+              <li>.308 Winchester and .338 Lapua Magnum options</li>
+              <li>Modular stock system</li>
+              <li>Match-grade barrel with advanced rifling</li>
+              <li>Enhanced ergonomics for extended operations</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>ORSIS-CT20 Ultra Long-Range</h4>
+            <p><strong>Strategic Precision Rifle</strong> - .375 CheyTac chambered rifle for extreme long-range engagements up to 2.5km.</p>
+            <ul>
+              <li>.375 CheyTac cartridge for extreme range</li>
+              <li>Aircraft-grade aluminum construction</li>
+              <li>Precision barrel honing (0.002mm tolerance)</li>
+              <li>All-weather operational capability (-45°C to +45°C)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Lobaev Arms Precision Systems (Russian Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Lobaev Arms ZOV Rifle</h4>
+            <p><strong>Patriotic Precision Platform</strong> - Custom-built precision rifle featuring enhanced accuracy and specialized configurations for Russian special operations.</p>
+            <ul>
+              <li>Multiple caliber configurations available</li>
+              <li>Sub-MOA accuracy guarantee</li>
+              <li>Custom tactical stock systems</li>
+              <li>Enhanced barrel harmonics and stability</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Lobaev Arms Twilight</h4>
+            <p><strong>Ultra-Long Range Precision System</strong> - Advanced sniper rifle designed for extreme-distance precision shooting and specialized missions.</p>
+            <ul>
+              <li>.338 Lapua Magnum and .416 Barrett options</li>
+              <li>Custom action and trigger systems</li>
+              <li>Advanced barrel technology</li>
+              <li>Modular chassis and accessories</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Lobaev Arms Hummer</h4>
+            <p><strong>Tactical Precision Rifle</strong> - Versatile precision platform optimized for various tactical applications and operational environments.</p>
+            <ul>
+              <li>Multiple caliber chamberings available</li>
+              <li>Tactical configuration options</li>
+              <li>Enhanced reliability and durability</li>
+              <li>Custom accessories and modifications</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Lobaev Arms Victrix</h4>
+            <p><strong>Competition-Grade Precision System</strong> - High-end precision rifle adapted for special operations requiring maximum accuracy and reliability.</p>
+            <ul>
+              <li>Competition-grade accuracy standards</li>
+              <li>Advanced barrel and action technology</li>
+              <li>Customizable stock and trigger systems</li>
+              <li>Professional-grade precision accessories</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Elite Unit Equipment (Russian Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Alpha Group Tactical Kit</h4>
+            <p><strong>FSB Special Forces Equipment</strong> - Comprehensive gear package used by Alpha Group operators including specialized weapons and protection.</p>
+            <ul>
+              <li>Altyn helmet with ballistic protection</li>
+              <li>FORT "Attack" bulletproof vest</li>
+              <li>SRVV modular load-bearing vest</li>
+              <li>Specialized radio and communication gear</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Ratnik Combat System</h4>
+            <p><strong>Modular Soldier System</strong> - Advanced infantry equipment extensively used by KSSO and special operations forces.</p>
+            <ul>
+              <li>Modular camouflage options</li>
+              <li>Integrated protection systems</li>
+              <li>Advanced communication capabilities</li>
+              <li>Night vision compatibility</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Tactical Ballistic Missiles (Russian Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>9K720 Iskander-M</h4>
+            <p><strong>Tactical Ballistic Missile</strong> - Short-range precision missile system with multiple warhead options and mobile launch capability.</p>
+            <ul>
+              <li>500km maximum range capability</li>
+              <li>Optical/radar terminal guidance</li>
+              <li>Multiple warhead configurations</li>
+              <li>Mobile TEL launcher platform</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-section unique-systems">
+        <h3>Strike UAVs & Loitering Munitions (Russian Exclusive)</h3>
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <h4>Geran-2 Strike UAV</h4>
+            <p><strong>Mass Production Drone</strong> - Russian-built variant with 170+ units daily production capacity for sustained operations.</p>
+            <ul>
+              <li>2,000+ km operational range</li>
+              <li>Delta-wing pusher propeller configuration</li>
+              <li>40kg high-explosive warhead</li>
+              <li>GLONASS/GPS dual navigation system</li>
+            </ul>
+          </div>
+
+          <div class="equipment-card">
+            <h4>Lancet Loitering Munition</h4>
+            <p><strong>Precision Strike UAV</strong> - Advanced loitering munition with electro-optical guidance for high-value targets.</p>
+            <ul>
+              <li>40km operational range</li>
+              <li>Electro-optical target acquisition</li>
+              <li>Autonomous target engagement</li>
+              <li>Anti-armor warhead configuration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Defense Intelligence Briefing</h2>
+      <p>Access classified technical specifications and operational assessments from superpower military systems. Complete arsenal catalog including precision munitions, custom rifles, hypersonic missiles, and specialized ordnance systems.</p>
+      <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
+        <input type="email" id="email" name="email" placeholder="Enter security-cleared email address" required>
+        <input type="submit" id="submit" value="Request Intelligence Brief">
+      </form>
+      
+      <div class="intel-stats">
+        <div class="stat-card">
+          <h4>Complete Military Catalog</h4>
+          <p>120+ weapons systems across all domains and specializations</p>
+        </div>
+        <div class="stat-card">
+          <h4>Advanced Arsenal</h4>
+          <p>Hypersonic missiles, thermobaric systems, and precision munitions</p>
+        </div>
+        <div class="stat-card">
+          <h4>Elite Platforms</h4>
+          <p>From MOAB to Zircon, covering the complete spectrum of modern warfare</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DefenseTech Arsenal. Complete Military Systems & Advanced Platforms | Classification: FOR OFFICIAL USE ONLY</p>
+  </footer>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+/* Header Styles */
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #000000 0%, #1e3a8a 50%, #8b0000 100%);
+  padding: 1rem 2rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+  border-bottom: 3px solid #ff4444;
+}
+
+#header-img {
+  height: 60px;
+  width: auto;
+  border-radius: 8px;
+  filter: brightness(1.2) contrast(1.1);
+}
+
+#nav-bar {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.nav-link:hover {
+  background: linear-gradient(45deg, #ff4444, #1e3a8a);
+  border-color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255,68,68,0.4);
+}
+
+/* Main Content */
+main {
+  margin-top: 90px;
+}
+
+#hero {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), 
+              url('https://images.unsplash.com/photo-1562408590-e32931084e23?ixlib=rb-4.0.3') center/cover;
+  color: white;
+  text-align: center;
+  padding: 12rem 2rem;
+  position: relative;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(30,58,138,0.3) 50%, rgba(139,0,0,0.3) 100%);
+}
+
+#hero h1 {
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 4px 4px 8px rgba(0,0,0,0.9);
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 2;
+}
+
+#hero p {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  opacity: 0.95;
+  position: relative;
+  z-index: 2;
+  font-weight: 300;
+}
+
+#video {
+  width: 100%;
+  max-width: 1000px;
+  height: 550px;
+  border-radius: 15px;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.7);
+  border: 4px solid #ff4444;
+  position: relative;
+  z-index: 2;
+}
+
+/* Arsenal Sections */
+#us-arsenal,
+#russian-arsenal {
+  padding: 6rem 2rem;
+  margin: 4rem 0;
+}
+
+#us-arsenal {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 30%, #1e40af 70%, #1e3a8a 100%);
+}
+
+#russian-arsenal {
+  background: linear-gradient(135deg, #8b0000 0%, #dc143c 30%, #b91c1c 70%, #8b0000 100%);
+}
+
+#us-arsenal h2,
+#russian-arsenal h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 5rem;
+  color: white;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.category-section {
+  margin-bottom: 5rem;
+}
+
+.category-section h3 {
+  color: #fff;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(0,0,0,0.4);
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255,255,255,0.2);
+}
+
+/* Special Operations Styling */
+.unique-systems h3 {
+  background: linear-gradient(45deg, rgba(255,68,68,0.3), rgba(255,215,0,0.3));
+  border: 2px solid #ffd700;
+  position: relative;
+}
+
+.unique-systems h3::after {
+  content: '★ SPEC OPS EXCLUSIVE ★';
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: linear-gradient(45deg, #ffd700, #ff6b35);
+  color: #000;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(255,215,0,0.4);
+}
+
+.equipment-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.equipment-card {
+  background: rgba(255,255,255,0.97);
+  padding: 3rem;
+  border-radius: 18px;
+  flex: 1 1 380px;
+  max-width: 480px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+  transition: all 0.4s ease;
+  border: 3px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.equipment-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #ff4444, #1e3a8a, #8b0000);
+}
+
+.unique-systems .equipment-card::before {
+  background: linear-gradient(90deg, #ffd700, #ff6b35, #ffd700);
+  height: 8px;
+}
+
+.equipment-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+  border-color: #ff4444;
+}
+
+.unique-systems .equipment-card:hover {
+  border-color: #ffd700;
+  box-shadow: 0 25px 60px rgba(255,215,0,0.3);
+}
+
+.equipment-card h4 {
+  color: #1a1a1a;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #ff4444;
+  padding-bottom: 1rem;
+  font-weight: 800;
+}
+
+.unique-systems .equipment-card h4 {
+  border-bottom-color: #ffd700;
+}
+
+.equipment-card p {
+  margin-bottom: 2rem;
+  color: #444;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.equipment-card strong {
+  color: #8b0000;
+  font-weight: 800;
+}
+
+.unique-systems .equipment-card strong {
+  color: #b8860b;
+}
+
+.equipment-card ul {
+  margin-top: 1.5rem;
+  padding-left: 2rem;
+}
+
+.equipment-card li {
+  margin-bottom: 0.8rem;
+  color: #555;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Contact Section */
+#contact {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1e3a8a 30%, #8b0000 70%, #1a1a1a 100%);
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+  letter-spacing: 2px;
+}
+
+#contact p {
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+  opacity: 0.9;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form {
+  max-width: 700px;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#email {
+  padding: 2rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(15px);
+}
+
+#email::placeholder {
+  color: rgba(255,255,255,0.8);
+}
+
+#email:focus {
+  outline: none;
+  border-color: #ff4444;
+  background: rgba(255,255,255,0.25);
+  transform: scale(1.02);
+}
+
+#submit {
+  padding: 2rem 3rem;
+  font-size: 1.4rem;
+  background: linear-gradient(135deg, #ff4444 0%, #1e3a8a 50%, #8b0000 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#submit:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 10px 30px rgba(255, 68, 68, 0.6);
+}
+
+.intel-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.15);
+  padding: 3rem;
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  border: 3px solid rgba(255,68,68,0.4);
+  min-width: 300px;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  border-color: #ff4444;
+}
+
+.stat-card h4 {
+  color: #ff4444;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.stat-card p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 4rem;
+  border-top: 4px solid #ff4444;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1200px) {
+  .equipment-grid {
+    gap: 2.5rem;
+  }
+  
+  .equipment-card {
+    flex: 1 1 350px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+  
+  #nav-bar {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  #hero h1 {
+    font-size: 3.2rem;
+  }
+  
+  #hero p {
+    font-size: 1.6rem;
+  }
+  
+  #video {
+    height: 350px;
+  }
+  
+  .equipment-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .equipment-card {
+    max-width: 100%;
+    flex: none;
+  }
+  
+  .category-section h3 {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+  
+  .unique-systems h3::after {
+    font-size: 0.6rem;
+    padding: 4px 10px;
+  }
+  
+  .intel-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stat-card {
+    min-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero {
+    padding: 8rem 1rem;
+  }
+  
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  #hero p {
+    font-size: 1.3rem;
+  }
+  
+  #us-arsenal,
+  #russian-arsenal,
+  #contact {
+    padding: 4rem 1rem;
+  }
+  
+  .equipment-card {
+    padding: 2rem;
+  }
+  
+  #nav-bar {
+    gap: 1rem;
+  }
+}
+
+** end of styles.css **
+

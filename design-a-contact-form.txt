@@ -1,0 +1,97 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Contact Form</title>
+</head>
+
+<body>
+  <div class="form-container">
+    <form>
+      <h2>Reach out to us!</h2>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="textarea">Message:</label>
+      <textarea id="textarea" name="textarea" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.form-container {
+  background-color: #F35A;
+  border-radius: 8px 16px;
+  padding: 20px 40px;
+  width: 100vw;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin: 0.75rem 0;
+  color: hsl(0, 0%, 13.3%);
+  font-weight: 600;
+}
+
+label:last-of-type a {
+  margin-bottom: 0;
+  color: inherit;
+  text-decoration: underline;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 20px 40px;
+  margin-bottom: 0.75rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  background-color: #222222;
+  color: #fff;
+  font-size: 1.15rem;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 8px 16px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  font-weight: 600;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 1rem auto 0;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 27.1%);
+}
+
+** end of styles.css **
+

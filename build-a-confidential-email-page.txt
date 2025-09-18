@@ -1,0 +1,68 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confidential Email</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main id="email">
+    <div id="confidential">CONFIDENTIAL</div>
+    <div id="top-secret">TOP SECRET</div>
+    <p>Operation Silent Veil Briefing - August 2025: Joint strike mission targeting fortified insurgent command bunker in contested Middle Eastern theater. Objectives: Neutralize high-value targets and disrupt enemy C2 networks. Assets deployed include <span class="blurred">two B-21 Raiders (Block 20 configuration)</span> for deep penetration strikes, <span class="blurred">four F-35 Lightning II (Block 4)</span> multirole fighters for air superiority and close air support, <span class="blurred">two AC-130J Ghostriders</span> for persistent fire support, and <span class="blurred">five EA-18G Growlers</span> for electronic warfare suppression. Mission launch from forward base at <span class="blurred">0200 Zulu</span>; expected duration 6 hours.</p>
+    <p>Asset Roles and Ordnance: B-21 Raiders equipped with <span class="blurred">Massive Ordnance Penetrators (MOP GBU-57A/B)</span> for bunker-busting, supplemented by <span class="blurred">AGM-181 LRSO cruise missiles</span> for standoff precision strikes. F-35s armed with latest <span class="blurred">AIM-9X Block III sidewinders, JDAM-ER extended-range bombs, and StormBreaker smart glide bombs</span> for dynamic targeting. AC-130Js fitted with <span class="blurred">Griffin laser-guided missiles, Viper Strike munitions, and 105mm howitzer</span> for ground suppression. EA-18Gs carrying <span class="blurred">Next Generation Jammer Mid-Band pods, AGM-88E AARGM-ER anti-radiation missiles, and MALD-X decoy drones</span> for electronic attack and deception. All systems integrated via <span class="blurred">Link 16</span> for real-time data sharing.</p>
+    <p>Radio Chatter Transcription - Operation Silent Veil, 0230-0300 Zulu:<br>
+    [Raider Lead]: Raider One, ingress complete, <span class="blurred">MOPs armed, target lock confirmed at grid 47-29</span>. Over.<br>
+    [Growler Flight]: Growler Three jamming enemy radar; spectrum clear. Over.<br>
+    [F-35 Wing]: Lightning Two, fox three on bandit; splash one. Over.<br>
+    [Ghostrider One]: Guns hot, engaging ground threats with <span class="blurred">Viper Strikes</span>. Over.<br>
+    [Raider Two]: Bombs away, <span class="blurred">MOP impact in T-minus 10</span>; egress initiated. Over.<br>
+    [Growler Lead]: <span class="blurred">MALD-X deployed, decoys active</span>; all birds report green. Over.<br>
+    [F-35 Lead]: RTB, mission success; no losses reported. Out.</p>
+    <p>Mission Debrief - Operation Silent Veil, August 2025: Planned objectives achieved with <span class="blurred">95% efficacy</span>; primary bunker neutralized via MOP strikes, secondary targets suppressed by combined air support. Actual outcomes: All assets returned to base with minimal damage; electronic warfare effectively jammed <span class="blurred">87% of enemy radar</span>. What went well: Seamless integration of <span class="blurred">Link 16 data sharing</span> and decoy deployments prevented detection. Areas for improvement: Adjust <span class="blurred">F-35 ingress routes</span> to mitigate unexpected SAM threats encountered at <span class="blurred">altitude 25,000 ft</span>. Lessons learned: Enhance pre-mission intel on mobile defenses; recommend additional <span class="blurred">MALD-X reserves</span> for extended operations. No personnel losses; mission classified as success pending full ISR review.</p>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px;
+  box-sizing: border-box;
+}
+
+#confidential {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid blue;
+  transform: rotate(2deg);
+  color: blue; /* Added text color */
+}
+
+#top-secret {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid blue;
+  transform: rotate(-1deg);
+  color: blue; /* Added text color */
+}
+
+.blurred {
+  filter: blur(3px);
+}
+
+** end of styles.css **
+

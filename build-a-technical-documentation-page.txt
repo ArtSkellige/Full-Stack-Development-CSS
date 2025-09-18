@@ -1,0 +1,306 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQL Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>SQL Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#SELECT_Statement">SELECT Statement</a>
+    <a class="nav-link" href="#WHERE_Clause">WHERE Clause</a>
+    <a class="nav-link" href="#JOIN_Operations">JOIN Operations</a>
+    <a class="nav-link" href="#Built_in_Functions">Built in Functions</a>
+  </nav>
+
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header>Introduction</header>
+      <p>SQL (Structured Query Language) is a programming language designed for managing and manipulating relational databases. It provides a standardized way to create, read, update, and delete data from database tables.</p>
+      <p>SQL was developed in the 1970s by IBM and has become the standard language for relational database management systems. It allows users to perform complex queries, create database schemas, and maintain data integrity across multiple tables.</p>
+      <code>-- This is a SQL comment
+SELECT 'Hello, SQL World!' AS greeting;</code>
+    </section>
+
+    <section id="SELECT_Statement" class="main-section">
+      <header>SELECT Statement</header>
+      <p>The SELECT statement is the most fundamental SQL command used to query and retrieve data from database tables. It allows you to specify exactly which columns and rows you want to extract from your database.</p>
+      <p>You can use SELECT with various clauses to filter, sort, and format your results. The basic syntax starts with SELECT followed by column names, then FROM to specify the table, and optional clauses for more complex operations.</p>
+      <code>-- Basic SELECT syntax
+SELECT column1, column2, column3
+FROM table_name;
+
+-- Select all columns
+SELECT * FROM employees;
+
+-- Select with aliases
+SELECT first_name AS "First Name", 
+       last_name AS "Last Name"
+FROM employees;</code>
+    </section>
+
+    <section id="WHERE_Clause" class="main-section">
+      <header>WHERE Clause</header>
+      <p>The WHERE clause is used to filter records and retrieve only those rows that meet specified conditions. It acts as a powerful tool to narrow down your query results based on logical criteria.</p>
+      <p>WHERE clauses can use comparison operators, logical operators, and pattern matching to create complex filtering conditions. This makes it possible to extract very specific subsets of data from large tables.</p>
+      <code>-- WHERE with comparison operators
+SELECT * FROM products 
+WHERE price > 100;
+
+-- WHERE with multiple conditions
+SELECT * FROM employees 
+WHERE department = 'Sales' 
+  AND salary BETWEEN 50000 AND 80000;
+
+-- WHERE with pattern matching
+SELECT * FROM customers 
+WHERE customer_name LIKE 'A%';</code>
+    </section>
+
+    <section id="JOIN_Operations" class="main-section">
+      <header>JOIN Operations</header>
+      <p>JOIN operations are essential for combining data from multiple related tables in a relational database. They allow you to retrieve information that spans across different tables by establishing relationships between them.</p>
+      <p>Different types of JOINs serve different purposes: INNER JOIN returns only matching records, LEFT JOIN includes all records from the left table, RIGHT JOIN includes all from the right table, and FULL OUTER JOIN includes all records from both tables.</p>
+      <code>-- INNER JOIN example
+SELECT c.customer_name, o.order_date, o.total_amount
+FROM customers c
+INNER JOIN orders o ON c.customer_id = o.customer_id;
+
+-- LEFT JOIN with multiple tables
+SELECT e.employee_name, d.department_name, p.project_name
+FROM employees e
+LEFT JOIN departments d ON e.department_id = d.department_id
+LEFT JOIN projects p ON e.employee_id = p.manager_id;</code>
+    </section>
+
+    <section id="Built_in_Functions" class="main-section">
+      <header>Built in Functions</header>
+      <p>SQL provides numerous built-in functions that allow you to perform calculations, manipulate strings, work with dates, and aggregate data. These functions greatly extend SQL's capability beyond simple data retrieval.</p>
+      <p>Aggregate functions like COUNT, SUM, AVG, MIN, and MAX are particularly useful for generating reports and statistical summaries. String functions help with text manipulation, while date functions enable complex temporal queries.</p>
+      <code>-- Aggregate functions
+SELECT COUNT(*) as total_employees,
+       AVG(salary) as average_salary,
+       MAX(hire_date) as latest_hire
+FROM employees;
+
+-- String functions
+SELECT UPPER(first_name) as upper_name,
+       LENGTH(last_name) as name_length,
+       CONCAT(first_name, ' ', last_name) as full_name
+FROM employees;</code>
+      <ul>
+        <li>COUNT() - Returns the number of rows that match criteria</li>
+        <li>SUM() - Calculates the total sum of numeric values</li>
+        <li>AVG() - Computes the average value of numeric columns</li>
+        <li>MIN() and MAX() - Find minimum and maximum values</li>
+        <li>UPPER() and LOWER() - Convert text case</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  font-size: 14px;
+  background-color: #f8f9fa;
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  border-right: 3px solid #1e3c72;
+  overflow-y: auto;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+#navbar header {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #4CAF50;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: #e8f4fd;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: rgba(255,255,255,0.1);
+  color: #4CAF50;
+  border-left: 3px solid #4CAF50;
+  transform: translateX(8px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+#main-doc {
+  margin-left: 320px;
+  padding: 40px;
+  max-width: 900px;
+}
+
+.main-section {
+  margin-bottom: 50px;
+  background: white;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-top: 4px solid #4CAF50;
+}
+
+.main-section header {
+  font-size: 30px;
+  color: #1e3c72;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #4CAF50;
+  padding-bottom: 12px;
+  font-weight: bold;
+  position: relative;
+}
+
+.main-section header:before {
+  content: "📊";
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+code {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 1px solid #dee2e6;
+  border-left: 4px solid #4CAF50;
+  display: block;
+  padding: 25px;
+  margin: 25px 0;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 14px;
+  color: #1e3c72;
+  overflow-x: auto;
+  border-radius: 6px;
+  line-height: 1.5;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+ul {
+  margin: 25px 0;
+  padding: 25px;
+  background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+  border-radius: 8px;
+  border-left: 4px solid #4CAF50;
+}
+
+li {
+  margin-bottom: 12px;
+  color: #555;
+  list-style-type: none;
+  padding-left: 30px;
+  position: relative;
+  font-size: 15px;
+}
+
+li:before {
+  content: "▶";
+  color: #4CAF50;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 3px solid #1e3c72;
+  }
+  
+  #main-doc {
+    margin-left: 0;
+    padding: 20px;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  
+  .main-section {
+    padding: 25px;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+** end of styles.css **
+

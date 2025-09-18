@@ -1,0 +1,97 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Newspaper Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="newspaper-layout">
+    <header class="title">
+      <h1>The Line-Breaker</h1>
+    </header>
+    
+    <figure class="cover-image">
+      <img src="https://images.unsplash.com/photo-1561149877-84baba3689b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Modern artillery system in field deployment">
+    </figure>
+    
+    <article class="feature-article">
+      <h2>Russia Advances S-500 Air Defense Deployment in Strategic Regions</h2>
+      <p>Moscow — Russia's Aerospace Forces have integrated the S-500 Prometheus system into operations near key borders, enhancing long-range missile interception capabilities up to 600 km. This development focuses on hypersonic threat neutralization and multi-target engagement, with investments reflecting ongoing military modernization efforts amid global security dynamics.</p>
+    </article>
+    
+    <article class="secondary-article">
+      <h2>US Navy Progresses Railgun Integration on Advanced Destroyers</h2>
+      <p>Norfolk — The USS Lyndon B. Johnson (DDG-1002) has conducted successful railgun trials, demonstrating high-velocity projectile launches over extended ranges. Backed by DARPA funding, this technology aims to improve naval precision and efficiency in various operational scenarios.</p>
+    </article>
+    
+    <article class="small-article1">
+      <h3>Israel Enhances Laser-Based Defense Systems</h3>
+      <p>Tel Aviv — Rafael unveils upgrades to the Iron Beam, offering cost-effective interception of aerial threats, with plans for broader deployment in regional defense networks.</p>
+    </article>
+    
+    <article class="small-article2">
+      <h3>China Accelerates J-35 Fighter Production</h3>
+      <p>Beijing — Shenyang ramps up manufacturing of the J-35 stealth aircraft, incorporating advanced avionics for enhanced carrier-based operations in maritime environments.</p>
+    </article>
+    
+    <article class="small-article3">
+      <h3>UK Expands Investment in Autonomous Drone Technologies</h3>
+      <p>London — The Ministry of Defence commits funds to develop AI-driven drone systems, targeting improved coordination for future tactical applications.</p>
+    </article>
+  </main>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.newspaper-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-areas: 
+    "title title title"
+    "feature-article feature-article cover-image"
+    "secondary-article secondary-article cover-image"
+    "small-article1 small-article2 small-article3";
+  gap: 20px;
+}
+
+.title {
+  grid-area: title;
+}
+
+.feature-article {
+  grid-area: feature-article;
+}
+
+.cover-image {
+  grid-area: cover-image;
+}
+
+.secondary-article {
+  grid-area: secondary-article;
+}
+
+.small-article1 {
+  grid-area: small-article1;
+}
+
+.small-article2 {
+  grid-area: small-article2;
+}
+
+.small-article3 {
+  grid-area: small-article3;
+}
+
+.cover-image img {
+  max-width: 100%;
+}
+
+** end of styles.css **
+

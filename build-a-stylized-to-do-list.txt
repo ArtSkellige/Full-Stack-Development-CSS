@@ -1,0 +1,87 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <ul class="todo-list">
+
+        <li>
+           <input id="li1" type="checkbox">
+           <label for="li1">Task №1</label>
+           <ul class="sub-item">
+           <li><a href="#" class="sub-item-link" target="_blank">Subtask №1</a></li></ul>        
+        </li>
+
+        <li>
+           <input id="li2" type="checkbox">
+           <label for="li2">Task №2</label>
+           <ul class="sub-item">
+           <li><a href="#" class="sub-item-link" target="_blank">Subtask №2</a></li></ul>        
+        </li>
+
+        <li>
+           <input id="li3" type="checkbox">
+           <label for="li3">Task №3</label>
+           <ul class="sub-item">
+           <li><a href="#" class="sub-item-link" target="_blank">Subtask №3</a></li></ul>        
+        </li>
+
+        <li>
+           <input id="li4" type="checkbox">
+           <label for="li4">Task №4</label>
+           <ul class="sub-item">
+           <li><a href="#" class="sub-item-link" target="_blank">Subtask №4</a></li></ul>        
+        </li>
+        
+    </ul>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+/*Default link style, unless overriden*/
+.sub-item-link {
+  text-decoration: none;
+}
+
+/*Remove underline from all links*/
+.sub-item-link:link {
+  text-decoration: none;
+  color: blue;
+}
+
+/*visited*/
+.sub-item-link:visited {
+color: red;
+text-decoration: none;
+}
+
+/*focus*/
+.sub-item-link:focus {
+outline: 2px solid orange;
+outline-offset: 2px;
+}
+
+/*hover*/
+.sub-item-link:hover {
+color: green;
+text-decoration: none;
+} 
+
+/*active*/
+.sub-item-link:active {
+color: violet;
+text-decoration: none;
+
+** end of styles.css **
+

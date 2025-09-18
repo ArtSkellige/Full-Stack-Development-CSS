@@ -1,0 +1,95 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Article</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="newspaper">
+      <p class="name">Orbital Observer</p>
+      <p class="date">August 28, 2025</p>
+      <h1 class="headline">Joint US-Russia Orbital Interceptors Mobilized by Space Force to Lock Down Key Relay on Volatile Exoplanet Perimeter.</h1>
+      <h2 class="sub-headline">In a nod to their joint orbital heritage, American and Russian space forces deploy interceptors to shield a critical station above Gliese 581c's scorching, Venus-like atmosphere, ensuring safe probes into the exoplanet's debated habitable zone.</h2>
+      <p class="author">By Frank Wolfe and Elena Sokolova</p>
+      <p class="text">In a groundbreaking display of international cooperation reminiscent of the enduring International Space Station (ISS) partnership, the US Space Force's Celestial Eagles squadron and the Russian Space Forces' Cosmic Sentinels unit mobilized joint orbital interceptors to secure a vital communications relay station orbiting Gliese 581c, a super-Earth exoplanet 20 light-years from Sol. The operation, dubbed "Frontier Accord," unfolded amid escalating tensions over unauthorized probes from rival powers attempting to exploit the planet's scorching, Venus-like atmosphere and debated habitable zones for resource extraction. Launched from dual command centers at Cape Canaveral and Baikonur Cosmodrome, the interceptors—advanced USSF Starhawk drones paired with Russian Sokol missiles—formed a protective grid around the relay, neutralizing three intruding satellites in a high-precision maneuver that lasted 72 tense hours. This rare alliance, built on decades of shared orbital heritage since the Apollo-Soyuz Test Project in 1975, not only thwarted immediate threats but also paved the way for collaborative scientific probes into Gliese 581c's extreme environment, where temperatures soar above 200°C and greenhouse effects create a volatile frontier for future exploration.</p>
+      <p class="text">Interviews with key commanders highlight the operation's dramatic stakes and seamless coordination. US Space Force Lt. Gen. Marcus "Eagle Prime" Harlan, commander of the Celestial Eagles, praised the mission's success: "This wasn't just about defending a relay; it was about proving that old rivals can become unbreakable allies in the stars. When our interceptors faced a sudden barrage from debris fields, the Russian team's quick recalibration saved our assets from catastrophic failure." Echoing this sentiment, Russian Space Forces Col. Viktor "Comet Fury" Kuznetsov of the Cosmic Sentinels unit added, "Our joint heritage on the ISS taught us trust under pressure. During the peak confrontation, American Guardians provided critical real-time intel that allowed our Sokol missiles to intercept a cloaked probe targeting our shared station—without their precision, we'd have lost the perimeter." Both leaders emphasized how the operation, drawing from historical US-Russia space collaborations like the 1990s Mir-Shuttle dockings, reinforced mutual dominance in contested space domains while advancing peaceful exploration.</p>
+      <p class="text">Direct participants on the ground and in orbit shared harrowing tales of mutual heroism that turned potential disaster into triumph. USSF Capt. Lena "Starhawk" Reyes, piloting a Celestial Eagles interceptor, recounted: "We were blindsided by a rogue drone swarm in Gliese 581c's upper atmosphere—my craft was hit, spiraling toward the planet's inferno. That's when Russian Lt. Dmitri 'Wolf Shadow' Ivanov from the Cosmic Sentinels vectored in, deploying countermeasures to stabilize my trajectory and pull me back to safety." Conversely, Ivanov described a reciprocal act: "As our Sokol unit engaged the main threat, a power surge threatened to overload our relay interface. Captain Reyes' quick override from the US side rerouted energy flows, saving our team from a blackout that could have exposed us to total breach." These accounts underscore the operation's realism and drama, blending cutting-edge tech with human resilience in a volatile exoplanet theater, ultimately ensuring the relay's security for ongoing joint probes into habitable zones.</p>
+    </div>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.newspaper {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+html {
+  font-size: 24px;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+
+.author {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.sub-headline {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+  margin: 0;
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+@media (min-width: 768px) {
+  .text {
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px solid #ccc;
+  }
+}
+
+@media (max-width: 600px) {
+  .newspaper {
+    padding: 10px;
+  }
+  .name, .date, .headline, .sub-headline, .author {
+    text-align: center;
+  }
+}
+
+** end of styles.css **
+
