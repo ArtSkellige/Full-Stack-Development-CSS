@@ -28,7 +28,7 @@
         <h3>Full-Stack Development Collection</h3>
         <p>
           Here's the entire collection of my 
-          <a id="profile-link" href="https://github.com/ArtSkellige/FSD" target="_blank">
+          <a id="profile-link" href="https://github.com/ArtSkellige" target="_blank">
             projects and completed labs
           </a> 
           neatly organized in my GitHub repository.
@@ -194,6 +194,7 @@ body {
   .project-tile {
     padding: 1.5rem;
   }
+
 }
 
 ** end of styles.css **
